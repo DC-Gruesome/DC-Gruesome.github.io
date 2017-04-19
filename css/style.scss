@@ -1,29 +1,55 @@
 
-body{
-	background-attachment: fixed;
-	background-image: url("../imgs/dna_Blue.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+body {
+	 background-attachment: fixed;
+	 background-image: url("../imgs/dna_Blue.jpg");
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+
+}
+
+.about {
+	background-color: #B59164;
+	opacity: 0.6;	
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1%;
+	width: 40%;
+	position: fixed;
+	top: 20%;
+	left: 15%;
+
+}
+
+p {
+
+	color: Black;
+	font-weight: bold;
 
 }
 
 ul {
+	align-content: center;
+	background-color: #B59164;
+	height: auto;
+	opacity: 0.6;	
+	padding: 0;
 	list-style-type: none;
     position: fixed;
-    right: 7.5%;
+    right: 10%;
     top: 0;
     width: auto;
 }
 
-li {
+li {	
 	display: inline-block;
 	line-height: 2rem;
-	padding: 1rem;
+	padding: .75rem 1.25rem;
 }
 
 a {
-	color: #B97164;
+	color: Black;
+	font-weight: bold;
 }
 
 ;
