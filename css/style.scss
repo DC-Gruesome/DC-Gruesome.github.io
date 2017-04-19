@@ -9,8 +9,7 @@ body {
 }
 
 .about {
-	background-color: #B59164;
-	opacity: 0.6;	
+	background-color: rgba(181,145,100,0.6);
 	margin-left: auto;
 	margin-right: auto;
 	padding: 1%;
@@ -29,9 +28,8 @@ p {
 
 ul {
 	align-content: center;
-	background-color: #B59164;
+	background-color: rgba(181,145,100,0.6);
 	height: auto;
-	opacity: 0.6;	
 	padding: 0;
 	list-style-type: none;
     position: fixed;
@@ -40,7 +38,7 @@ ul {
     width: auto;
 }
 
-li {	
+li {		
 	display: inline-block;
 	line-height: 2rem;
 	padding: .75rem 1.25rem;
