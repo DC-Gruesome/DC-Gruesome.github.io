@@ -45,10 +45,16 @@ body {
   margin: 5em 10em; }
 
 h1 {
-  color: white;
-  font-size: 3rem;
-  margin: 1rem auto;
+  color: #1abc9c;
+  font-size: 1rem;
+  margin: 1rem 1rem 3rem 0;
+  position: absolute;
+  left: .5rem;
+  top: 0rem;
   text-align: center; }
+
+a.home-link {
+  color: #1abc9c;}
 
 h2 {
   float: left;

@@ -1,17 +1,4 @@
-/*
- * Author: Carlos Alvarez
- * URL: http://Alvarez.is
- *
- * Project Name: NYC Design
- * Version: 1.0
- * Date: 04-20-2014
- * URL: 
- */
 
-
-/* ==========================================================================
-   Base Styles, Bootstrap Modifications & Fonts Import
-   ========================================================================== */
 
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 
@@ -28,9 +15,6 @@
     text-shadow: none;
 }
 
-/*
- * A better looking default horizontal rule
- */
 
  hr {
     display: block;
@@ -52,11 +36,6 @@
 .mb {
 	margin-bottom: 80px;
 }
-
-/* ==========================================================================
-   General styles
-   ========================================================================== */
-
 
 body {
     font-family: 'Montserrat', sans-serif;
@@ -94,11 +73,6 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-default .navbar-nav > li > a {
 	color: #1abc9c;
 }
-
-
-/* ==========================================================================
-   Wrap Sections
-   ========================================================================== */
 
 #headerwrap {
 	background: url(../img/smoke_water.jpg) no-repeat center top;
@@ -217,14 +191,15 @@ h1, h2, h3, h4, h5, h6 {
     background-size: cover;
 }
 
-
-
-
-/* Gallery */
 .gallery {
 	margin-top: 30px;
 }
 
 .gallery img:hover {
 	opacity: 0.4;
+}
+
+.resume {
+	color: #1abc9c;
+	font-weight: 700;
 }
