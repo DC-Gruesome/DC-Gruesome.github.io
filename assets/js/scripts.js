@@ -1,7 +1,4 @@
-/*
-Creating an HTML5 enhanced responsive-ready contact form, with custom javascript feature detection
-www.toddmotto.com
-*/
+
 (function() {
 
 	// Create input element for testing
@@ -14,17 +11,17 @@ www.toddmotto.com
 	supports.required    = 'required' in inputs;
 	supports.placeholder = 'placeholder' in inputs;
 
-	// Fallback for autofocus attribute
+	// autofocus attribute
 	if(!supports.autofocus) {
 		
 	}
 	
-	// Fallback for required attribute
+	// required attribute
 	if(!supports.required) {
 		
 	}
 
-	// Fallback for placeholder attribute
+	// placeholder attribute
 	if(!supports.placeholder) {
 		
 	}
