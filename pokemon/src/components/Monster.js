@@ -79,3 +79,10 @@ class Monster extends Component {
 }
 
 export default Monster;
+
+
+
+
+// random(num) {
+  
+}
