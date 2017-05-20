@@ -72,42 +72,42 @@
 		
 		<!-- Form -->
 		<form id="contact-form" action="https://formspree.io/dc.fe.dev@gmail.com" method="post" enctype="text/plain">
-			<input type="hidden" name="_next" value="https://dc-gruesome.github.io/about.html">
 			<h3>Be Social</h3>
 			<h4>Fill in the form, and I'll contact you in a timely manner.</h4>
 			<div>
 				<label>
 					<span>Name: (required)</span>
-					<input placeholder="Please enter your name" type="text" tabindex="1" required autofocus>
+					<input placeholder="Please enter your name" type="text" tabindex="1" name="name" required autofocus>
 				</label>
 			</div>
 			<div>
 				<label>
 					<span>Email: (required)</span>
-					<input placeholder="Please enter your email address" type="email" tabindex="2" required>
+					<input placeholder="Please enter your email address" type="email" tabindex="2" name="_replyto" required>
 				</label>
 			</div>
 			<div>
 				<label>
 					<span>Telephone: (required)</span>
-					<input placeholder="Please enter your number" type="tel" tabindex="3" required>
+					<input placeholder="Please enter your number" type="tel" tabindex="3" name="telephone" required>
 				</label>
 			</div>
 			<div>
 				<label>
 					<span>Website: (required)</span>
-					<input placeholder="Begin with http://" type="url" tabindex="4" required>
+					<input placeholder="Begin with http://" type="url" tabindex="4" name="website" required>
 				</label>
 			</div>
 			<div>
 				<label>
 					<span>Message: (required)</span>
-					<textarea placeholder="Include all the details you can" tabindex="5" required></textarea>
+					<textarea placeholder="Include all the details you can" tabindex="5" name="message" required></textarea>
 				</label>
 			</div>
 			<div>
-				<button name="submit" type="submit" id="contact-submit">Send Email</button>
+				<button name="submit" type="submit" id="contact-submit" value="Send">Send Email</button>
 			</div>
+			<input type="hidden" name="_next" value="https://dc-gruesome.github.io/about.html">
 		</form>
 		<!-- /Form -->
 		
