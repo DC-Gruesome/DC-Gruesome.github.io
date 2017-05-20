@@ -7,7 +7,11 @@ class Search extends Component {
 	}
 
 	render(){
-		return <input type="text" ref="searchInput" placeholder="Pokemon Search" value={this.props.query} onChange={this.doSearch}/>
+		return (
+			<div className="search">
+				<input type="text" ref="searchInput" placeholder="Pokemon Search" value={this.props.query} onChange={this.doSearch}/>
+			</div>
+		);		
 	}
 };
 

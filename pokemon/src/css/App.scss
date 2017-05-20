@@ -1,5 +1,9 @@
 html, body{
-	background: #e2e1e0;
+	background-attachment: fixed;
+	background-image: url("../imgs/kantoMap.png"); 
+	background-position: center;
+	background-repeat: no-repeat;
+
 	font-family: sans-serif;
 	text-align: center;
 }
@@ -10,31 +14,80 @@ html, body{
 }
 
 .pokeapp{
-	padding : 2rem;
+	padding : 1rem;
 }
 
 .monster {
+	display: inline-block;
+	min-width: 13rem;
+
 	
 }
 .monster-species {
 	-ms-flex-preferred-size: 40%;
 	box-sizing: border-box;
 	flex-basis: 40%;
-	padding: 1rem;
+	padding: .5rem 0;
 }
 
 .monster-container {
-	background: white;
+	background: #D3D3D3;
 	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 	cursor: pointer;
-	padding: .5rem;
+	height: 13rem;
+	margin: .5rem;
+	padding: auto;
 	text-transform: capitalize;
 }
 
 .monster-description .monster-height .monster-name .monster-number .monster-types .monster-weight {
 	color: black;
-	min-height: .75rem;
-	padding: .5rem 0 0;
+	min-height: auto;
 }
 
+.monster-info-container {
+	background-color: #C0C0C0;
+	border-style: inset;
+	height: 50%;
+	text-align: left;
+	width: auto;
+}
+
+.clearfix {
+	overflow: auto;
+}
+
+.monster-info-left {
+	float: left;
+	height: auto;
+	margin-left: 2%;
+	padding: 1%;
+	width: 46%;
+}
+
+.monster-info-right {
+	float: right;
+	height: auto;
+	margin-left: 2%;
+	padding: 1%;
+	width: 46%;
+}
+
+.monster-info-bottom {
+	background-color: gray;
+	border-top: inset;
+	clear: both;
+	height: 43%;
+	padding: .5rem 0;
+	text-align: center;
+}
+
+.search {
+	display: block;
+}
+
+.sprite-container {
+	border-style: inset;
+	height: auto;
+}
 
