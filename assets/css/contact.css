@@ -47,6 +47,11 @@ body {
 	display:block;
 	font-size:13px;
 }
+
+#contact-form label {
+	width: 100%;
+}
+
 #contact-form label span {
 	cursor:pointer;
 	color:#1cddb7;
