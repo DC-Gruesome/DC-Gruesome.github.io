@@ -55,6 +55,11 @@ body {
 	font-weight:900;
 	width: 100%;
 }
+
+#contact-form label input {
+	width: 100%;
+}
+
 #contact-form input[type="text"],
 #contact-form input[type="email"],
 #contact-form input[type="tel"],
