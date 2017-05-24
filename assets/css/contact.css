@@ -53,6 +53,7 @@ body {
 	display:block;
 	margin:5px 0;
 	font-weight:900;
+	width: 100%;
 }
 #contact-form input[type="text"],
 #contact-form input[type="email"],
