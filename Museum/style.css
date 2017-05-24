@@ -120,7 +120,7 @@ a {
   hr {
     width: 75rem; }
 
-  hr.mobile {
+  hr-mobile {
     display: none; }
 
   .firstName, .lastName, .address, .userName, .email, .confirmEmail, .membership, .membership-one, .membership-two, .membership-three {
