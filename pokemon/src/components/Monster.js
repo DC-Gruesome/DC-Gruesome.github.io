@@ -1,9 +1,19 @@
 import React, { Component } from 'react';
 
+// class Moves extends Component {
+
+//   movesList() {
+
+//     return <div className="movesList"> pokemon.pokemon.moves </div>
+
+//   }
+
+// }
+
 class Monster extends Component {
 
   monsterTypes() {
-
+    var typeEmpty = " ";
     var monsterTypesArray = [];
 
     for (var i = 0 ; i < this.props.monsterData.types.length; i++) {
@@ -13,6 +23,11 @@ class Monster extends Component {
       );
     
     }
+    // if (this.props.monsterData.types.length == 1) {
+    //   monsterTypesArray.push(
+    //     <div key={"key" + 1}> {typeEmpty} </div>
+    //    ); 
+    // }
      
     return monsterTypesArray;
 
@@ -21,26 +36,41 @@ class Monster extends Component {
   render() {
 
     return (
-      <div className="monster">
-        <div className="monster-container">
-        	<div className="monster-sprite">
-        		<img src={require(`../imgs/sprites/${this.props.id}.png`)} alt={this.props.monsterData.name}/>
-        	</div>
-        	<div className="monster-name">
-        		Name: {this.props.monsterData.name}
-        	</div>
-        	<div className="monster-number">
-        		Pokémon Number: {this.props.monsterData.id}
-        	</div>
-        	<div className="monster-height">
-        		Height: {this.props.monsterData.height}
-        	</div>
-        	<div className="monster-weight">
-        		Weight: {this.props.monsterData.weight}
-        	</div>
-        	<div className="monster-types">
-        		{this.monsterTypes()}
-        	</div>
+      <div className = "master-container">
+        <div className="moves-container">
+          <div className="movesList"> {this.props.monsterData.name} </div>
+        </div>
+        <div className="monster">
+          <div className="monster-container">
+          	<div className="sprite-container">
+              <div className="monster-sprite">
+            		<img src={require(`../imgs/sprites/${this.props.id}.png`)} alt={this.props.monsterData.name}/>
+            	</div>
+            </div>
+          	<div className="monster-info-container">
+              <div className="monster-info-left clearfix">
+                <div className="monster-name">
+              		{this.props.monsterData.name}
+              	</div>
+              	<div className="monster-number">
+              		No: {this.props.monsterData.id}
+              	</div>
+              </div>
+              <div className="monster-info-right clearfix">
+              	<div className="monster-height">
+              		Ht: {this.props.monsterData.height}ft
+              	</div>
+              	<div className="monster-weight">
+              		Wt: {this.props.monsterData.weight}lbs
+              	</div>
+              </div>
+              <div className="monster-info-bottom clearfix">
+              	<div className="monster-types">
+              		{this.monsterTypes()}
+              	</div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     );
@@ -49,3 +79,10 @@ class Monster extends Component {
 }
 
 export default Monster;
+
+
+
+
+// random(num) {
+  
+}
