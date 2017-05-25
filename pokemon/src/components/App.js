@@ -116,7 +116,7 @@ class App extends Component {
 
     this.setState({isLoading : true});    
 
-    fetch(`http://pokeapi.co/api/v2/pokemon/${pokemon.props.pokemonID}`)
+    fetch(`https://pokeapi.co/api/v2/pokemon/${pokemon.props.pokemonID}`)
       .then(res=>res.json())
       .then(response => {
         console.log(response);
