@@ -1,5 +1,5 @@
 @font-face {
-  font-family: Pokemon-Font;
+  font-family: PokemonFont;
   src: url("../font/PokemonFont/PokemonGB.ttf"); }
 html, body {
   background: #7c7c7c;
@@ -11,7 +11,8 @@ html, body {
   background: linear-gradient(135deg, #7c7c7c 0%, #868686 12%, #8f8f8f 25%, #797979 39%, #656565 50%, #454545 51%, #515151 60%, #646464 76%, #595959 91%, #535353 100%);
   background-size: stretch;
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7c7c7c', endColorstr='#535353',GradientType=1 );
-  font-family: Pokemon-Font;
+  font-family: PokemonFont;
+  font-size: 12px;
   text-align: center; }
 
 .App {
