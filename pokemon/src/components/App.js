@@ -4,6 +4,7 @@ import pokemonSelectJSON from '../json/pokemon.json';
 import PokemonSelect from './PokemonSelect';
 import PokemonDetails from './PokemonDetails';
 import PokemonBattle from './PokemonBattle';
+import '../font-awesome/css/font-awesome.css'
 import '../css/App.css';
 
 class App extends Component {
@@ -177,12 +178,11 @@ class App extends Component {
   createDetails() {
 
     return (
-
       <PokemonDetails 
                       currentPokemon={this.state.currentPokemon} 
                       handleDetailsCancel={this.handleDetailsCancel}
                       handleDetailsSelect={this.handleDetailsSelect}/>
-    
+                    
     );
 
   }
@@ -192,7 +192,10 @@ class App extends Component {
     return (
 
       <div className="loadingScreen">
-        Loading!
+        <i className="fa fa-superpowers fa-spin fa-3x fa-fw" aria-hidden="true"></i>
+        <div className="loadingText">
+          Loading...
+        </div>  
       </div>
     );
 
