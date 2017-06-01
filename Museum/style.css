@@ -77,6 +77,9 @@ a {
   .banner-tablet {
     display: none; }
 
+  .banner-mobile {
+    display: none; }
+
   .logo-heading {
     float: left;
     margin: 0; }
@@ -493,6 +496,8 @@ a {
     border-color: #ccc;
     margin-bottom: 3rem;
     width: 90%; }
+  header .banner-mobile {
+    display: none; }
   header .banner-tablet {
     display: block; }
 

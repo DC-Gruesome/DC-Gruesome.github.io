@@ -184,11 +184,16 @@ h1, h2, h3, h4, h5, h6 {
 	background-attachment: relative;
 	background-position: top center;
 <<<<<<< HEAD
+<<<<<<< HEAD
 	min-height: 650px;
 	width: 100%;
 =======
 	background-size: auto 100%;
 >>>>>>> dba8e9499882ce6e65b5d0772e58b724232c791c
+=======
+	min-height: 650px;
+	width: 100%;
+>>>>>>> origin/master
 	
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
