@@ -173,33 +173,22 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #aboutwrap {	
-<<<<<<< HEAD
 	background: url(../img/0003gc.png) no-repeat center top;
-=======
 	background: url(../img/0003gc.jpg) no-repeat center top;
->>>>>>> dba8e9499882ce6e65b5d0772e58b724232c791c
 	margin-top: -70px;
 	padding-top: 250px;
 	text-align:center;
 	background-attachment: relative;
 	background-position: top center;
-<<<<<<< HEAD
-<<<<<<< HEAD
 	min-height: 650px;
 	width: 100%;
-=======
 	background-size: auto 100%;
->>>>>>> dba8e9499882ce6e65b5d0772e58b724232c791c
-=======
 	min-height: 650px;
 	width: 100%;
->>>>>>> origin/master
-	
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
     background-size: 100%;
-
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -216,5 +205,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .resume {
 	color: #1abc9c;
+	display: inline-block;
 	font-weight: 700;
 }
