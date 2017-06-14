@@ -1,214 +1,214 @@
 @font-face{
-	font-family: PokemonFont;
-	src: url('../font/PokemonFont/PokemonGB.ttf');
+  font-family: PokemonFont;
+  src: url('../font/PokemonFont/PokemonGB.ttf');
 }
 
 html, body{
-	background: white;
-	background-attachment: fixed;
-	background-image: url(../imgs/background.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: contain;
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7c7c7c', endColorstr='#535353',GradientType=1 );
-	font-family: PokemonFont;
-	font-size: 9px;
-	text-align: center;
+  background: white;
+  background-attachment: fixed;
+  background-image: url(../imgs/background.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7c7c7c', endColorstr='#535353',GradientType=1 );
+  font-family: PokemonFont;
+  font-size: 9px;
+  text-align: center;
 }
 
 .App {
 
-	display: block;
-	text-align: center;
-	text-transform: capitalize;
+  display: block;
+  text-align: center;
+  text-transform: capitalize;
 
-	div.name {
-		line-height: 2rem;
-		width: 100%;
-	}
+  div.name {
+    line-height: 2rem;
+    width: 100%;
+  }
 
-	div.number, div.height, div.weight, div.types, div.speed, div.special-defense, div.special-attack, div.defense, div.attack, div.hp{
-		float: left;
-		line-height: .75rem;
-		padding: .5rem;
-		text-align: left;
-		text-transform: capitalize;
-		width: 45%;
-		
-	}
+  div.number, div.height, div.weight, div.types, div.speed, div.special-defense, div.special-attack, div.defense, div.attack, div.hp{
+    float: left;
+    line-height: .75rem;
+    padding: .5rem;
+    text-align: left;
+    text-transform: capitalize;
+    width: 45%;
+    
+  }
 
 
-	div.description {
-		clear: left;
-		display: inline-block;
-		line-height: .75rem;
-		padding: .5rem;
-		text-align: left;
+  div.description {
+    clear: left;
+    display: inline-block;
+    line-height: .75rem;
+    padding: .5rem;
+    text-align: left;
 
-	}
+  }
 }
 
 div.pokemonBattleInfo {
 
-	border-radius: 50%;
+  border-radius: 50%;
 }
 
 img.damaged {
-	transition: all .35s ease-out;
+  transition: all .35s ease-out;
 }
 
 div.pokemonBattleInfo img.damaged {
-	border-color: #FF0000;
-	border-radius: 50%;
-	box-shadow: 0 0 1rem #FF0000;
-	transform: scale(0.8);
+  border-color: #FF0000;
+  border-radius: 50%;
+  box-shadow: 0 0 1rem #FF0000;
+  transform: scale(0.8);
 }
 
 div.pokemonBattlePreview {
-	width: 100%;
+  width: 100%;
 
-	.BattlePreviewTitle {
-		font-size: 2em;
-		font-weight: 700;
-	}
-	.PokemonCombatant {
-		display: inline-block;
-		float: left;
-		margin: 7.5% auto;
-		padding: 1rem;
-		width: 45%;
-	}
+  .BattlePreviewTitle {
+    font-size: 2em;
+    font-weight: 700;
+  }
+  .PokemonCombatant {
+    display: inline-block;
+    float: left;
+    margin: 7.5% auto;
+    padding: 1rem;
+    width: 45%;
+  }
 
 
 div.versus {
-	float: left;
-	margin: 20% 0;
-	width: 4%;
+  float: left;
+  margin: 20% 0;
+  width: 4%;
 }
 
 div.combatantClearFloat {
-	clear: both;
+  clear: both;
 }
 
 
 }
 div.inBattleMode {
-	text-align: center;
+  text-align: center;
 }
 .pokemonDetailsInfo {
-	cursor: pointer;
-	opacity: .9;
-	width: 100%;
+  cursor: pointer;
+  opacity: .9;
+  width: 100%;
 
-	.name {
-		font-size: 2em;
-	}
+  .name {
+    font-size: 2em;
+  }
 }
 
 div.selectionScreen{
-	display: inline-block;
-	padding : 2rem;
+  display: inline-block;
+  padding : 2rem;
 }
 
 .pokemonSelect {
-	-ms-flex-preferred-size: 40%;
-	box-sizing: border-box;
-	flex-basis: 40%;
-	padding: 1rem;
+  -ms-flex-preferred-size: 40%;
+  box-sizing: border-box;
+  flex-basis: 40%;
+  padding: 1rem;
 }
 
 .pokemonSelectTile{
-	cursor: pointer;
-	display: inline-block;
-	height: 140px;
-	margin: .5rem;
-	opacity: .75;
-	width: 150px;
+  cursor: pointer;
+  display: inline-block;
+  height: 140px;
+  margin: .5rem;
+  opacity: .75;
+  width: 150px;
 }
 
 .pokemonSelectTileContainer{
 
-	cursor: pointer;
-	display: inline-block;
+  cursor: pointer;
+  display: inline-block;
 
 }
 
 .pokemonImage {
-	display: block;
-	height: 70%;
-	margin-top: auto;
-	padding: 1rem;
-	width: 100%;
+  display: block;
+  height: 70%;
+  margin-top: auto;
+  padding: 1rem;
+  width: 100%;
 }
 
 .pokemonName {
-	display: inline-block;
-	font-size: 10px;
-	height: 25%;
-	margin-top: 1rem;
-	padding: 1rem;
-	word-wrap: break-word;
+  display: inline-block;
+  font-size: 10px;
+  height: 25%;
+  margin-top: 1rem;
+  padding: 1rem;
+  word-wrap: break-word;
 }
 
 .loadingScreen{
-	height: auto;
-	margin: 10% 0;
+  height: auto;
+  margin: 10% 0;
 }
 
 .loadingText {
-	color: blue;
-	font-family: PokemonFont;
-	font-size: 3em;
-	font-weight: 700;
-	margin: 3% 18%;
-	text-align: center;
+  color: blue;
+  font-family: PokemonFont;
+  font-size: 3em;
+  font-weight: 700;
+  margin: 3% 18%;
+  text-align: center;
 
 }
 
 .fa-spin {
 
-	animation: fa-spin 3s infinite linear;
-	animation-direction: reverse;
+  animation: fa-spin 3s infinite linear;
+  animation-direction: reverse;
 
 }
 
 .fa-fw {
 
-	text-align: center;
-	width: 3em;
+  text-align: center;
+  width: 3em;
 
 }
 
 .fa-3x {
 
-		font-size: 3em;
+    font-size: 3em;
 
 }
 
 .fa {
 
-	display: inline-block;
-	font: normal normal normal 14px/1 FontAwesome;
-	text-rendering: auto;
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  text-rendering: auto;
 
 }
 
 .fa-superpowers {
-	color: yellow;
-	font-size: 10em;
-	text-shadow: 8px 8px 16px #FF0000;
+  color: yellow;
+  font-size: 10em;
+  text-shadow: 8px 8px 16px #FF0000;
 }
 
 .fa-repeat, .fa-plus-square-o, .fa-minus-square-o, .fa-trash-o {
-	color: black;
-	font-size: 3em;
-	margin: 3%;
+  color: black;
+  font-size: 3em;
+  margin: 3%;
 }
 
 .battle {
-	clear: both;
+  clear: both;
 }
 
 .clearFloat {
-	clear: both;
+  clear: both;
 }
