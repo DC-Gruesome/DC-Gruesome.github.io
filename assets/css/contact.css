@@ -13,14 +13,25 @@
 }
 body {
 	font:400 12px/1.625 "Helvetica Neue", Helvetica, Arial, sans-serif;
+<<<<<<< HEAD
+	/*background-image:linear-gradient(left , #761542 0%, #991D57 52%, #761542 100%);
+	background-image:-moz-linear-gradient(left , #761542 0%, #991D57 52%, #761542 100%);
+	background-image:-webkit-linear-gradient(left , #761542 0%, #991D57 52%, #761542 100%);*/
+=======
 	
+>>>>>>> dba8e9499882ce6e65b5d0772e58b724232c791c
 }
 .wrapper {
 	max-width:500px;
 	width:95%;
 	margin:0 auto;
+<<<<<<< HEAD
+	position:relative;
+}
+=======
 /*	position:relative;
 */}
+>>>>>>> dba8e9499882ce6e65b5d0772e58b724232c791c
 #contact-form input[type="text"],
 #contact-form input[type="email"],
 #contact-form input[type="tel"],

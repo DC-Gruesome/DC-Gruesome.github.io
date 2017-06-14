@@ -123,6 +123,9 @@ a {
   hr {
     width: 75rem; }
 
+  hr.mobile {
+    display: none; }
+
   .firstName, .lastName, .address, .userName, .email, .confirmEmail, .membership, .membership-one, .membership-two, .membership-three {
     border-radius: 0.5rem; }
 

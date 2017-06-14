@@ -1,5 +1,8 @@
 
+<<<<<<< HEAD
+=======
 
+>>>>>>> dba8e9499882ce6e65b5d0772e58b724232c791c
 (function() {
 
 	// Create input element for testing
