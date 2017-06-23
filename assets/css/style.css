@@ -203,6 +203,10 @@ h1, h2, h3, h4, h5, h6 {
 	opacity: 0.4;
 }
 
+.hidden {
+	display: none;
+}
+
 .resume {
 	color: #1abc9c;
 	display: inline-block;
