@@ -171,17 +171,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #aboutwrap {	
-	background: url(../img/0003gc.png) no-repeat center top;
-	background: url(../img/0003gc.jpg) no-repeat center top;
-	margin-top: -70px;
+	background: url(../img/0003gcopy.jpg) no-repeat center top;
+	margin-top: -25px;
 	padding-top: 250px;
 	text-align:center;
 	background-attachment: relative;
 	background-position: top center;
-	min-height: 650px;
+	min-height: 800px;
 	width: 100%;
 	background-size: auto 100%;
-	min-height: 650px;
+	min-height: 755px;
 	width: 100%;
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
