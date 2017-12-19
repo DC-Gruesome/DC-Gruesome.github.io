@@ -110,9 +110,9 @@ body {
 	width:100%;
 	border:none;
 	background:#1cddb7;
-	background-image:linear-gradient(bottom, #2cfdb7 0%, #2adc9c 52%);
-	background-image:-moz-linear-gradient(bottom, #2cfdb7 0%, #2adc9c 52%);
-	background-image:-webkit-linear-gradient(bottom, #2cfdb7 0%, #2adc9c 52%);
+	background-image:linear-gradient(bottom, #2cfdb7 0%, #2adc9c 100%);
+	background-image:-moz-linear-gradient(bottom, #2cfdb7 0%, #2adc9c 100%);
+	background-image:-webkit-linear-gradient(bottom, #2cfdb7 0%, #2adc9c 100%);
 	color:#FFF;
 	margin:0 0 5px;
 	padding:10px;
