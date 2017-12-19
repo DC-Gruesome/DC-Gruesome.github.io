@@ -138,13 +138,11 @@ h1, h2, h3, h4, h5, h6 {
 
 #workwrap {	
 	background: url(../img/nebula.jpg) no-repeat center top;
-	margin-top: -70px;
-	margin-left:-50px;
-	padding-top: 250px;
+	padding-top: 200px;
 	text-align:center;
 	background-attachment: relative;
 	background-position: top center;
-	min-height: 650px;
+	min-height: 680px;
 	width: 100%;
 	
     -webkit-background-size: 100%;
