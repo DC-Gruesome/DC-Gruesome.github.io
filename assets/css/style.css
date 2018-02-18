@@ -84,7 +84,7 @@ h1, h2, h3, h4, h5, h6 {
 	background-position: center center;
 	min-height: auto;
 	width: 100%;
-	
+
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -136,7 +136,7 @@ h1, h2, h3, h4, h5, h6 {
 	margin-left: 10px;
 }
 
-#workwrap {	
+#workwrap {
 	background: url(../img/nebula.jpg) no-repeat center top;
 	padding-top: 200px;
 	text-align:center;
@@ -144,7 +144,7 @@ h1, h2, h3, h4, h5, h6 {
 	background-position: top center;
 	min-height: 680px;
 	width: 100%;
-	
+
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -170,7 +170,7 @@ h1, h2, h3, h4, h5, h6 {
 	color: #ffffff
 }
 
-#aboutwrap {	
+#aboutwrap {
 	background: url(../img/0003gcopy.jpg) no-repeat center top;
 	margin-top: -25px;
 	padding-top: 250px;
@@ -208,4 +208,13 @@ h1, h2, h3, h4, h5, h6 {
 	color: #1abc9c;
 	display: inline-block;
 	font-weight: 700;
+}
+
+.facebook, .linkedIn, .instagram {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.hidden {
+  display: none;
 }
